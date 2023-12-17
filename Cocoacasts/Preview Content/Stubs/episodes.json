@@ -1,0 +1,202 @@
+[
+  {
+    "id": 556,
+    "title": "Authenticating the Users",
+    "excerpt": "With the view and the view model in place, we can authenticate the user. In this episode, you learn how to authenticate a user using the URLSession API and basic authentication.",
+    "imageURL": "https:\/\/cdn.cocoacasts.com\/building-a-sign-in-form-using-swiftui\/building-a-sign-in-form-using-swiftui.svg",
+    "videoDuration": 513,
+    "videoID": "632759499"
+  },
+  {
+    "id": 553,
+    "title": "Adopting the Model-View-ViewModel Pattern",
+    "excerpt": "In the previous episode, we built a sign in form using SwiftUI. In this episode, we create and integrate a view model that drives the sign in form.",
+    "imageURL": "https:\/\/cdn.cocoacasts.com\/building-a-sign-in-form-using-swiftui\/building-a-sign-in-form-using-swiftui.svg",
+    "videoDuration": 392,
+    "videoID": "629924871"
+  },
+  {
+    "id": 551,
+    "title": "Building the User Interface",
+    "excerpt": "In this series, we build a sign in form using SwiftUI. In the first episode, we build the user interface. In the next episodes, we apply the model-view-viewmodel pattern and perform a network request to sign the user in. At the end of this series, we have a fully functional sign in form that is ready to be integrated into an application.",
+    "imageURL": "https:\/\/cdn.cocoacasts.com\/building-a-sign-in-form-using-swiftui\/building-a-sign-in-form-using-swiftui.svg",
+    "videoDuration": 370,
+    "videoID": "629336476"
+  },
+  {
+    "id": 548,
+    "title": "Working with Units and Measurements in SwiftUI",
+    "excerpt": "A few years ago, Apple added a number of APIs to the Foundation framework to make it easier to work with units and measurements. The APIs are flexible and straightforward to use. As of this year, SwiftUI integrates with these APIs to make it trivial to display units and measurements. The SwiftUI APIs we discuss in this episode are available as of iOS 15, tvOS 15, macOS 12, and watchOS 8.",
+    "imageURL": "https:\/\/cdn.cocoacasts.com\/suie-1-working-with-units-and-measurements-in-swiftui\/suie-1-working-with-units-and-measurements-in-swiftui.svg",
+    "videoDuration": 423,
+    "videoID": "624285052"
+  },
+  {
+    "id": 1,
+    "title": "Customizing Views with Modifiers",
+    "excerpt": "To customize a view in a UIKit or AppKit application, you update one or more of the view's properties. For example, to change the text color of a UILabel instance, you update the label's textColor property. That is an imperative approach to user interface development.",
+    "imageURL": "https:\/\/cocoacasts.s3.amazonaws.com\/swiftui-fundamentals-customizing-views-with-modifiers\/swiftui-fundamentals-customizing-views-with-modifiers.svg",
+    "videoDuration": 513,
+    "videoID": "595188603"
+  },
+  {
+    "id": 2,
+    "title": "Working with Xcode Previews",
+    "excerpt": "SwiftUI's declarative syntax makes it straightforward to describe the user interface you have in mind. The API is intuitive and the framework's learning curve is gentle. But Apple didn't stop there. SwiftUI is deeply integrated into Xcode, making it almost trivial to build user interfaces using SwiftUI.",
+    "imageURL": "https:\/\/cocoacasts.s3.amazonaws.com\/swiftui-fundamentals-working-with-xcode-previews\/swiftui-fundamentals-working-with-xcode-previews.svg",
+    "videoDuration": 527,
+    "videoID": "593178943"
+  },
+  {
+    "id": 3,
+    "title": "What Is a View",
+    "excerpt": "A view is the fundamental building block of your application's user interface. You already know that a view is a type that conforms to the View protocol. In this episode, we take a closer look at views and the View protocol.",
+    "imageURL": "https:\/\/cocoacasts.s3.amazonaws.com\/swiftui-fundamentals-what-is-a-view\/swiftui-fundamentals-what-is-a-view.svg",
+    "videoDuration": 585,
+    "videoID": "591619516"
+  },
+  {
+    "id": 4,
+    "title": "Exploring a SwiftUI Application",
+    "excerpt": "While it is possible to integrate SwiftUI into a UIKit or AppKit application, this series focuses on building applications that are built entirely using SwiftUI.",
+    "imageURL": "https:\/\/cocoacasts.s3.amazonaws.com\/swiftui-fundamentals-exploring-a-swiftui-application\/swiftui-fundamentals-exploring-a-swiftui-application.svg",
+    "videoDuration": 565,
+    "videoID": "588839558"
+  },
+  {
+    "id": 5,
+    "title": "What Is SwiftUI",
+    "excerpt": "SwiftUI is Apple's brand new framework for building user interfaces for iOS, tvOS, macOS, and watchOS. Apple introduced SwiftUI in 2019 and the framework has been evolving at a rapid pace ever since. Unlike UIKit and AppKit, SwiftUI is a cross-platform framework. With SwiftUI, Apple offers developers a solution for rapidly building applications. In this series, you learn everything you need to build applications using SwiftUI.",
+    "imageURL": "https:\/\/cocoacasts.s3.amazonaws.com\/swiftui-fundamentals-what-is-swiftui\/swiftui-fundamentals-what-is-swiftui.svg",
+    "videoDuration": 340,
+    "videoID": "587759528"
+  },
+  {
+    "id": 6,
+    "title": "Transforming Publishers with Flat Map",
+    "excerpt": "The API the image service exposes no longer accepts a completion handler. It returns a publisher instead. This is an improvement, but the image service still uses completion handlers under the hood. In this episode, we replace the completion handlers the image service uses internally with publishers.",
+    "imageURL": "https:\/\/cocoacasts.s3.amazonaws.com\/building-reactive-applications-with-combine-transforming-publishers-with-flat-map\/building-reactive-applications-with-combine-transforming-publishers-with-flat-map.svg",
+    "videoDuration": 482,
+    "videoID": "566617562"
+  },
+  {
+    "id": 7,
+    "title": "Replacing Completion Handlers with Futures",
+    "excerpt": "In the previous episode, you learned about futures and promises. In this episode, I show you how to use them in a project.",
+    "imageURL": "https:\/\/cocoacasts.s3.amazonaws.com\/building-reactive-applications-with-combine-replacing-completion-handlers-with-futures\/building-reactive-applications-with-combine-replacing-completion-handlers-with-futures.svg",
+    "videoDuration": 553,
+    "videoID": "564593262"
+  },
+  {
+    "id": 8,
+    "title": "Futures and Promises",
+    "excerpt": "Earlier in this series, you learned how a subject can bridge the gap between imperative programming and reactive programming. While subjects are convenient in many ways, they are not always the best option. The Combine framework provides another option. In this episode, we zoom in on futures and promises to bridge the gap between imperative programming and reactive programming.",
+    "imageURL": "https:\/\/cocoacasts.s3.amazonaws.com\/building-reactive-applications-with-combine-futures-and-promises\/building-reactive-applications-with-combine-futures-and-promises.svg",
+    "videoDuration": 664,
+    "videoID": "564108649"
+  },
+  {
+    "id": 533,
+    "title": "Five Signs of Code Smell in Swift",
+    "excerpt": "The first application I published on the App Store was littered with code smells, bad practices, and anti-patterns. The application worked, but it was a challenge to maintain. Adding features to a large, complex project becomes increasingly difficult if it lacks direction and structure.",
+    "imageURL": "https:\/\/cocoacasts.s3.amazonaws.com\/five-signs-of-code-smell-in-swift\/five-signs-of-code-smell-in-swift.svg",
+    "videoDuration": 422,
+    "videoID": "567438237"
+  },
+  {
+    "id": 9,
+    "title": "Avoiding Infinite Loops",
+    "excerpt": "Infinite loops are every developer's nightmare, especially if they have disastrous consequences. You need to be mindful of infinite loops when working with Combine or any other reactive framework. The difficulty is that it isn't always obvious that you created an infinite loop. As a matter of fact, we introduced an infinite loop earlier in this series. You receive a bonus point if you can spot it.",
+    "imageURL": "https:\/\/cocoacasts.s3.amazonaws.com\/building-reactive-applications-with-combine-avoiding-infinite-loops\/building-reactive-applications-with-combine-avoiding-infinite-loops.svg",
+    "videoDuration": 570,
+    "videoID": "555642858"
+  },
+  {
+    "id": 528,
+    "title": "Seven Xcode Tricks Every Developer Should Know",
+    "excerpt": "To be productive and efficient, you need to know your tools. For a Swift developer, that means mastering Xcode. While Xcode is a complex piece of software with a fairly steep learning curve, the tricks I show you in this episode should significantly boost your productivity.",
+    "imageURL": "https:\/\/cocoacasts.s3.amazonaws.com\/seven-xcode-tricks-every-developer-should-know\/seven-xcode-tricks-every-developer-should-know.svg",
+    "videoDuration": 362,
+    "videoID": "553344883"
+  },
+  {
+    "id": 10,
+    "title": "Image Caching with Kingfisher",
+    "excerpt": "In the previous episodes, we implemented a service to fetch and cache remote images. Even though the service we built is pretty flexible, some applications require a more powerful solution and more options to fit their needs. This episode focuses on Kingfisher, a popular, open source library to fetch and cache remote images. You learn how to integrate Kingfisher in a project using CocoaPods. I show you how Kingfisher differs from the service we created earlier in this series and we take a peek under the hood to learn how Kingfisher does its magic.",
+    "imageURL": "https:\/\/cocoacasts.s3.amazonaws.com\/image-caching-in-swift-image-caching-with-kingfisher\/image-caching-in-swift-image-caching-with-kingfisher.svg",
+    "videoDuration": 648,
+    "videoID": "552329169"
+  },
+  {
+    "id": 11,
+    "title": "Limiting the Cache on Disk",
+    "excerpt": "Earlier in this series, you learned that a cache on disk has a number of benefits. It persists the cache across launches and it can be used to seed a cache in memory. Even though modern devices have plenty of disk space, we need to be mindful of the space the cache on disk takes up on the user's device. Applications like Twitter and Instagram fetch hundreds if not thousands of images. Even if those images are optimized and small in size, the cache on disk can grow quickly, taking up a non-trivial amount of space on the user's device. In this episode, we add the ability to limit the size of the cache on disk, similar to how the image service limits the size of the cache in memory.",
+    "imageURL": "https:\/\/cocoacasts.s3.amazonaws.com\/image-caching-in-swift-limiting-the-cache-on-disk\/image-caching-in-swift-limiting-the-cache-on-disk.svg",
+    "videoDuration": 761,
+    "videoID": "549198836"
+  },
+  {
+    "id": 12,
+    "title": "Asynchronously Reading Data from Disk",
+    "excerpt": "The previous episodes have illustrated that caching images can result in significant performance improvements. In the previous episode, I stressed the importance of writing cached images to disk on a background thread to prevent the image service from blocking the main thread.",
+    "imageURL": "https:\/\/cocoacasts.s3.amazonaws.com\/image-caching-in-swift-asynchronously-reading-data-from-disk\/image-caching-in-swift-asynchronously-reading-data-from-disk.svg",
+    "videoDuration": 641,
+    "videoID": "547896262"
+  },
+  {
+    "id": 13,
+    "title": "Caching Images on Disk",
+    "excerpt": "In this episode, we continue to improve the solution we implemented in this series by caching images on disk. Caching images on disk has a number of benefits. It reduces the number of requests the application makes and it improves the performance of the application. The user experiences the application as fast and snappy.",
+    "imageURL": "https:\/\/cocoacasts.s3.amazonaws.com\/image-caching-in-swift-caching-images-on-disk\/image-caching-in-swift-caching-images-on-disk.svg",
+    "videoDuration": 567,
+    "videoID": "542596502"
+  },
+  {
+    "id": 14,
+    "title": "Caching Images in Memory",
+    "excerpt": "We added the ability to cancel image requests in the previous episode. This and the next episode focus on caching images. We start simple by caching images in memory.",
+    "imageURL": "https:\/\/cocoacasts.s3.amazonaws.com\/image-caching-in-swift-caching-images-in-memory\/image-caching-in-swift-caching-images-in-memory.svg",
+    "videoDuration": 584,
+    "videoID": "540610860"
+  },
+  {
+    "id": 15,
+    "title": "Cancelling Image Requests",
+    "excerpt": "Most applications display images in some way, shape, or form. Those images are often fetched from a remote server, introducing a number of interesting challenges. Performing a request to a remote server takes time and it requires resources. It is therefore important to consider solutions to minimize the number of requests an application makes.",
+    "imageURL": "https:\/\/cocoacasts.s3.amazonaws.com\/image-caching-in-swift-cancelling-image-requests\/image-caching-in-swift-cancelling-image-requests.svg",
+    "videoDuration": 619,
+    "videoID": "539663157"
+  },
+  {
+    "id": 16,
+    "title": "Failable Initializers",
+    "excerpt": "If you are new to Swift, then you may be wondering what a failable initializer is and why you would ever use one. In this episode, I show you how to create a failable initializer and I hope I can convince you of their benefits. I use failable initializers in every project I work on and you may be surprised when I say that you do too.",
+    "imageURL": "https:\/\/cocoacasts.s3.amazonaws.com\/swift-patterns-failable-initializers\/swift-patterns-failable-initializers.svg",
+    "videoDuration": 587,
+    "videoID": "533858695"
+  },
+  {
+    "id": 17,
+    "title": "Recovering from Errors",
+    "excerpt": "Cloudy shows the user an error if it isn't able to fetch weather data from the weather API. We map any errors that are thrown to WeatherDataError in the RootViewModel class. This solution works fine and it is a fitting implementation for the weather application we are building. In this episode, I show you three other options to handle errors.",
+    "imageURL": "https:\/\/cocoacasts.s3.amazonaws.com\/building-reactive-applications-with-combine-recovering-from-errors\/building-reactive-applications-with-combine-recovering-from-errors.svg",
+    "videoDuration": 455,
+    "videoID": "528252798"
+  },
+  {
+    "id": 18,
+    "title": "Handling Errors",
+    "excerpt": "Even though we successfully used the Combine framework to fetch data from the weather API, the implementation is incomplete. We ignored error handling up until now and it is time to take a closer look at errors and how to handle them.",
+    "imageURL": "https:\/\/cocoacasts.s3.amazonaws.com\/building-reactive-applications-with-combine-handling-errors\/building-reactive-applications-with-combine-handling-errors.svg",
+    "videoDuration": 408,
+    "videoID": "526176931"
+  },
+  {
+    "id": 19,
+    "title": "Networking and Schedulers",
+    "excerpt": "Earlier in this series, you learned that reactive programming can be defined as working with asynchronous streams of data. A network request is an asynchronous operation and that makes reactive programming an excellent match for networking.",
+    "imageURL": "https:\/\/cocoacasts.s3.amazonaws.com\/building-reactive-applications-with-combine-networking-and-schedulers\/building-reactive-applications-with-combine-networking-and-schedulers.svg",
+    "videoDuration": 445,
+    "videoID": "522752532"
+  }
+]
