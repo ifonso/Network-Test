@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "7AF69EDC-1154-46C5-9CE4-603C704932A6",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:Cocoacasts.xcodeproj",
+          "identifier" : "78DE601A2B2E613600862B63",
+          "name" : "Cocoacasts"
+        }
+      ]
+    },
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Cocoacasts.xcodeproj",
+      "identifier" : "78DE601A2B2E613600862B63",
+      "name" : "Cocoacasts"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Cocoacasts.xcodeproj",
+        "identifier" : "78DE60952B2FB49E00862B63",
+        "name" : "CocoacastsTests"
+      }
+    }
+  ],
+  "version" : 1
+}

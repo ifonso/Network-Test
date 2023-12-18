@@ -8,3 +8,4 @@
 import Foundation
 
 typealias Headers = [String: String]
+typealias StatusCode = Int

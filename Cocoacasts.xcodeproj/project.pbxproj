@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78D1AD0A2B30AA81005B50CC /* StatusCode+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D1AD092B30AA81005B50CC /* StatusCode+Helpers.swift */; };
+		78D1AD0C2B30C755005B50CC /* video.json in Resources */ = {isa = PBXBuildFile; fileRef = 78D1AD0B2B30C755005B50CC /* video.json */; };
+		78D1AD0E2B30CF33005B50CC /* video-progress.json in Resources */ = {isa = PBXBuildFile; fileRef = 78D1AD0D2B30CF33005B50CC /* video-progress.json */; };
+		78D1AD112B30D606005B50CC /* auth-failure.json in Resources */ = {isa = PBXBuildFile; fileRef = 78D1AD0F2B30D606005B50CC /* auth-failure.json */; };
+		78D1AD122B30D606005B50CC /* auth-success.json in Resources */ = {isa = PBXBuildFile; fileRef = 78D1AD102B30D606005B50CC /* auth-success.json */; };
+		78D1AD142B30D9B7005B50CC /* update-progress-for-video.json in Resources */ = {isa = PBXBuildFile; fileRef = 78D1AD132B30D9B7005B50CC /* update-progress-for-video.json */; };
 		78DE601F2B2E613600862B63 /* CocoacastsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DE601E2B2E613600862B63 /* CocoacastsApp.swift */; };
 		78DE60212B2E613600862B63 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DE60202B2E613600862B63 /* RootView.swift */; };
 		78DE60232B2E613700862B63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78DE60222B2E613700862B63 /* Assets.xcassets */; };
@@ -48,9 +54,32 @@
 		78DE608C2B2F9D9C00862B63 /* EpisodesRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DE608B2B2F9D9C00862B63 /* EpisodesRowView.swift */; };
 		78DE608F2B2F9DC000862B63 /* EpisodeRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DE608E2B2F9DC000862B63 /* EpisodeRowViewModel.swift */; };
 		78DE60912B2FAFF300862B63 /* EpisodesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DE60902B2FAFF300862B63 /* EpisodesViewModel.swift */; };
+		78DE60A12B2FB4EB00862B63 /* APIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DE60A02B2FB4EB00862B63 /* APIClientTests.swift */; };
+		78DE60A42B2FB5FC00862B63 /* MockAccessTokenProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DE60A32B2FB5FC00862B63 /* MockAccessTokenProvider.swift */; };
+		78DE60A72B2FBB7600862B63 /* OHHTTPStubs in Frameworks */ = {isa = PBXBuildFile; productRef = 78DE60A62B2FBB7600862B63 /* OHHTTPStubs */; };
+		78DE60A92B2FBB7600862B63 /* OHHTTPStubsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 78DE60A82B2FBB7600862B63 /* OHHTTPStubsSwift */; };
+		78DE60AC2B2FBD0D00862B63 /* episodes.json in Resources */ = {isa = PBXBuildFile; fileRef = 78DE60AB2B2FBD0D00862B63 /* episodes.json */; };
+		78DE60AF2B2FC3B300862B63 /* HTTPStubsDescriptor+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DE60AE2B2FC3B300862B63 /* HTTPStubsDescriptor+Helpers.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		78DE609A2B2FB49E00862B63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78DE60132B2E613600862B63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78DE601A2B2E613600862B63;
+			remoteInfo = Cocoacasts;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		78D1AD082B30A47F005B50CC /* Cocoacasts.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cocoacasts.xctestplan; sourceTree = "<group>"; };
+		78D1AD092B30AA81005B50CC /* StatusCode+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StatusCode+Helpers.swift"; sourceTree = "<group>"; };
+		78D1AD0B2B30C755005B50CC /* video.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = video.json; sourceTree = "<group>"; };
+		78D1AD0D2B30CF33005B50CC /* video-progress.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "video-progress.json"; sourceTree = "<group>"; };
+		78D1AD0F2B30D606005B50CC /* auth-failure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "auth-failure.json"; sourceTree = "<group>"; };
+		78D1AD102B30D606005B50CC /* auth-success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "auth-success.json"; sourceTree = "<group>"; };
+		78D1AD132B30D9B7005B50CC /* update-progress-for-video.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "update-progress-for-video.json"; sourceTree = "<group>"; };
 		78DE601B2B2E613600862B63 /* Cocoacasts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cocoacasts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78DE601E2B2E613600862B63 /* CocoacastsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoacastsApp.swift; sourceTree = "<group>"; };
 		78DE60202B2E613600862B63 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
@@ -92,6 +121,11 @@
 		78DE608B2B2F9D9C00862B63 /* EpisodesRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesRowView.swift; sourceTree = "<group>"; };
 		78DE608E2B2F9DC000862B63 /* EpisodeRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeRowViewModel.swift; sourceTree = "<group>"; };
 		78DE60902B2FAFF300862B63 /* EpisodesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesViewModel.swift; sourceTree = "<group>"; };
+		78DE60962B2FB49E00862B63 /* CocoacastsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoacastsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78DE60A02B2FB4EB00862B63 /* APIClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientTests.swift; sourceTree = "<group>"; };
+		78DE60A32B2FB5FC00862B63 /* MockAccessTokenProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAccessTokenProvider.swift; sourceTree = "<group>"; };
+		78DE60AB2B2FBD0D00862B63 /* episodes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = episodes.json; sourceTree = "<group>"; };
+		78DE60AE2B2FC3B300862B63 /* HTTPStubsDescriptor+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HTTPStubsDescriptor+Helpers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +137,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		78DE60932B2FB49E00862B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78DE60A72B2FBB7600862B63 /* OHHTTPStubs in Frameworks */,
+				78DE60A92B2FBB7600862B63 /* OHHTTPStubsSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		78DE60122B2E613600862B63 = {
 			isa = PBXGroup;
 			children = (
+				78D1AD082B30A47F005B50CC /* Cocoacasts.xctestplan */,
 				78DE601D2B2E613600862B63 /* Cocoacasts */,
+				78DE60972B2FB49E00862B63 /* CocoacastsTests */,
 				78DE601C2B2E613600862B63 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -118,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				78DE601B2B2E613600862B63 /* Cocoacasts.app */,
+				78DE60962B2FB49E00862B63 /* CocoacastsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -217,6 +263,7 @@
 			isa = PBXGroup;
 			children = (
 				78DE60452B2E6CD200862B63 /* String+Helpers.swift */,
+				78D1AD092B30AA81005B50CC /* StatusCode+Helpers.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -393,6 +440,54 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		78DE60972B2FB49E00862B63 /* CocoacastsTests */ = {
+			isa = PBXGroup;
+			children = (
+				78DE60AD2B2FC39400862B63 /* Extensions */,
+				78DE60AA2B2FBCAC00862B63 /* Stubs */,
+				78DE60A22B2FB5C400862B63 /* Mocks */,
+				78DE609F2B2FB4B400862B63 /* Cases */,
+			);
+			path = CocoacastsTests;
+			sourceTree = "<group>";
+		};
+		78DE609F2B2FB4B400862B63 /* Cases */ = {
+			isa = PBXGroup;
+			children = (
+				78DE60A02B2FB4EB00862B63 /* APIClientTests.swift */,
+			);
+			path = Cases;
+			sourceTree = "<group>";
+		};
+		78DE60A22B2FB5C400862B63 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				78DE60A32B2FB5FC00862B63 /* MockAccessTokenProvider.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		78DE60AA2B2FBCAC00862B63 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				78D1AD0B2B30C755005B50CC /* video.json */,
+				78D1AD0D2B30CF33005B50CC /* video-progress.json */,
+				78DE60AB2B2FBD0D00862B63 /* episodes.json */,
+				78D1AD0F2B30D606005B50CC /* auth-failure.json */,
+				78D1AD102B30D606005B50CC /* auth-success.json */,
+				78D1AD132B30D9B7005B50CC /* update-progress-for-video.json */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		78DE60AD2B2FC39400862B63 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				78DE60AE2B2FC3B300862B63 /* HTTPStubsDescriptor+Helpers.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -416,6 +511,28 @@
 			productReference = 78DE601B2B2E613600862B63 /* Cocoacasts.app */;
 			productType = "com.apple.product-type.application";
 		};
+		78DE60952B2FB49E00862B63 /* CocoacastsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78DE609C2B2FB49E00862B63 /* Build configuration list for PBXNativeTarget "CocoacastsTests" */;
+			buildPhases = (
+				78DE60922B2FB49E00862B63 /* Sources */,
+				78DE60932B2FB49E00862B63 /* Frameworks */,
+				78DE60942B2FB49E00862B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78DE609B2B2FB49E00862B63 /* PBXTargetDependency */,
+			);
+			name = CocoacastsTests;
+			packageProductDependencies = (
+				78DE60A62B2FBB7600862B63 /* OHHTTPStubs */,
+				78DE60A82B2FBB7600862B63 /* OHHTTPStubsSwift */,
+			);
+			productName = CocoacastsTests;
+			productReference = 78DE60962B2FB49E00862B63 /* CocoacastsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -428,6 +545,11 @@
 				TargetAttributes = {
 					78DE601A2B2E613600862B63 = {
 						CreatedOnToolsVersion = 14.3.1;
+					};
+					78DE60952B2FB49E00862B63 = {
+						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
+						TestTargetID = 78DE601A2B2E613600862B63;
 					};
 				};
 			};
@@ -442,12 +564,14 @@
 			mainGroup = 78DE60122B2E613600862B63;
 			packageReferences = (
 				78DE603A2B2E68CB00862B63 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+				78DE60A52B2FBB7600862B63 /* XCRemoteSwiftPackageReference "OHHTTPStubs" */,
 			);
 			productRefGroup = 78DE601C2B2E613600862B63 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				78DE601A2B2E613600862B63 /* Cocoacasts */,
+				78DE60952B2FB49E00862B63 /* CocoacastsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -462,6 +586,19 @@
 				78DE60322B2E64BB00862B63 /* episodes.json in Resources */,
 				78DE60232B2E613700862B63 /* Assets.xcassets in Resources */,
 				78DE60302B2E64BB00862B63 /* video-progress.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78DE60942B2FB49E00862B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D1AD112B30D606005B50CC /* auth-failure.json in Resources */,
+				78DE60AC2B2FBD0D00862B63 /* episodes.json in Resources */,
+				78D1AD0C2B30C755005B50CC /* video.json in Resources */,
+				78D1AD0E2B30CF33005B50CC /* video-progress.json in Resources */,
+				78D1AD122B30D606005B50CC /* auth-success.json in Resources */,
+				78D1AD142B30D9B7005B50CC /* update-progress-for-video.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,13 +641,32 @@
 				78DE605E2B2E6F6B00862B63 /* APIEndpoint.swift in Sources */,
 				78DE60722B2F93BB00862B63 /* SignInViewModel.swift in Sources */,
 				78DE606C2B2F927D00862B63 /* CapsuleButton.swift in Sources */,
+				78D1AD0A2B30AA81005B50CC /* StatusCode+Helpers.swift in Sources */,
 				78DE60552B2E6E5300862B63 /* SignInResponse.swift in Sources */,
 				78DE60842B2F9B8B00862B63 /* EpisodeViewModel.swift in Sources */,
 				78DE60462B2E6CD200862B63 /* String+Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		78DE60922B2FB49E00862B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78DE60AF2B2FC3B300862B63 /* HTTPStubsDescriptor+Helpers.swift in Sources */,
+				78DE60A42B2FB5FC00862B63 /* MockAccessTokenProvider.swift in Sources */,
+				78DE60A12B2FB4EB00862B63 /* APIClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78DE609B2B2FB49E00862B63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78DE601A2B2E613600862B63 /* Cocoacasts */;
+			targetProxy = 78DE609A2B2FB49E00862B63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		78DE60272B2E613700862B63 /* Debug */ = {
@@ -691,6 +847,43 @@
 			};
 			name = Release;
 		};
+		78DE609D2B2FB49E00862B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.afonso.script.sol.CocoacastsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cocoacasts.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cocoacasts";
+			};
+			name = Debug;
+		};
+		78DE609E2B2FB49E00862B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.afonso.script.sol.CocoacastsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cocoacasts.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cocoacasts";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -712,6 +905,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		78DE609C2B2FB49E00862B63 /* Build configuration list for PBXNativeTarget "CocoacastsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78DE609D2B2FB49E00862B63 /* Debug */,
+				78DE609E2B2FB49E00862B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
@@ -723,6 +925,14 @@
 				kind = branch;
 			};
 		};
+		78DE60A52B2FBB7600862B63 /* XCRemoteSwiftPackageReference "OHHTTPStubs" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AliSoftware/OHHTTPStubs";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -730,6 +940,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 78DE603A2B2E68CB00862B63 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
 			productName = KeychainAccess;
+		};
+		78DE60A62B2FBB7600862B63 /* OHHTTPStubs */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78DE60A52B2FBB7600862B63 /* XCRemoteSwiftPackageReference "OHHTTPStubs" */;
+			productName = OHHTTPStubs;
+		};
+		78DE60A82B2FBB7600862B63 /* OHHTTPStubsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78DE60A52B2FBB7600862B63 /* XCRemoteSwiftPackageReference "OHHTTPStubs" */;
+			productName = OHHTTPStubsSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

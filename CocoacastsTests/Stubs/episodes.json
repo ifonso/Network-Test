@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "Customizing Views with Modifiers",
+    "excerpt": "To customize a view in a UIKit or AppKit application, you update one or more of the view's properties. For example, to change the text color of a UILabel instance, you update the label's textColor property. That is an imperative approach to user interface development.",
+    "imageURL": "https:\/\/cocoacasts.s3.amazonaws.com\/swiftui-fundamentals-customizing-views-with-modifiers\/swiftui-fundamentals-customizing-views-with-modifiers.svg",
+    "videoDuration": 513,
+    "videoID": "595188603"
+  },
+  {
+    "id": 2,
+    "title": "Working with Xcode Previews",
+    "excerpt": "SwiftUI's declarative syntax makes it straightforward to describe the user interface you have in mind. The API is intuitive and the framework's learning curve is gentle. But Apple didn't stop there. SwiftUI is deeply integrated into Xcode, making it almost trivial to build user interfaces using SwiftUI.",
+    "imageURL": "https:\/\/cocoacasts.s3.amazonaws.com\/swiftui-fundamentals-working-with-xcode-previews\/swiftui-fundamentals-working-with-xcode-previews.svg",
+    "videoDuration": 527,
+    "videoID": "593178943"
+  },
+  {
+    "id": 3,
+    "title": "What Is a View",
+    "excerpt": "A view is the fundamental building block of your application's user interface. You already know that a view is a type that conforms to the View protocol. In this episode, we take a closer look at views and the View protocol.",
+    "imageURL": "https:\/\/cocoacasts.s3.amazonaws.com\/swiftui-fundamentals-what-is-a-view\/swiftui-fundamentals-what-is-a-view.svg",
+    "videoDuration": 585,
+    "videoID": "591619516"
+  },
+  {
+    "id": 4,
+    "title": "Exploring a SwiftUI Application",
+    "excerpt": "While it is possible to integrate SwiftUI into a UIKit or AppKit application, this series focuses on building applications that are built entirely using SwiftUI.",
+    "imageURL": "https:\/\/cocoacasts.s3.amazonaws.com\/swiftui-fundamentals-exploring-a-swiftui-application\/swiftui-fundamentals-exploring-a-swiftui-application.svg",
+    "videoDuration": 565,
+    "videoID": "588839558"
+  },
+  {
+    "id": 5,
+    "title": "What Is SwiftUI",
+    "excerpt": "SwiftUI is Apple's brand new framework for building user interfaces for iOS, tvOS, macOS, and watchOS. Apple introduced SwiftUI in 2019 and the framework has been evolving at a rapid pace ever since. Unlike UIKit and AppKit, SwiftUI is a cross-platform framework. With SwiftUI, Apple offers developers a solution for rapidly building applications. In this series, you learn everything you need to build applications using SwiftUI.",
+    "imageURL": "https:\/\/cocoacasts.s3.amazonaws.com\/swiftui-fundamentals-what-is-swiftui\/swiftui-fundamentals-what-is-swiftui.svg",
+    "videoDuration": 340,
+    "videoID": "587759528"
+  },
+  {
+    "id": 6,
+    "title": "Transforming Publishers with Flat Map",
+    "excerpt": "The API the image service exposes no longer accepts a completion handler. It returns a publisher instead. This is an improvement, but the image service still uses completion handlers under the hood. In this episode, we replace the completion handlers the image service uses internally with publishers.",
+    "imageURL": "https:\/\/cocoacasts.s3.amazonaws.com\/building-reactive-applications-with-combine-transforming-publishers-with-flat-map\/building-reactive-applications-with-combine-transforming-publishers-with-flat-map.svg",
+    "videoDuration": 482,
+    "videoID": "566617562"
+  },
+  {
+    "id": 7,
+    "title": "Replacing Completion Handlers with Futures",
+    "excerpt": "In the previous episode, you learned about futures and promises. In this episode, I show you how to use them in a project.",
+    "imageURL": "https:\/\/cocoacasts.s3.amazonaws.com\/building-reactive-applications-with-combine-replacing-completion-handlers-with-futures\/building-reactive-applications-with-combine-replacing-completion-handlers-with-futures.svg",
+    "videoDuration": 553,
+    "videoID": "564593262"
+  },
+  {
+    "id": 8,
+    "title": "Futures and Promises",
+    "excerpt": "Earlier in this series, you learned how a subject can bridge the gap between imperative programming and reactive programming. While subjects are convenient in many ways, they are not always the best option. The Combine framework provides another option. In this episode, we zoom in on futures and promises to bridge the gap between imperative programming and reactive programming.",
+    "imageURL": "https:\/\/cocoacasts.s3.amazonaws.com\/building-reactive-applications-with-combine-futures-and-promises\/building-reactive-applications-with-combine-futures-and-promises.svg",
+    "videoDuration": 664,
+    "videoID": "564108649"
+  },
+  {
+    "id": 533,
+    "title": "Five Signs of Code Smell in Swift",
+    "excerpt": "The first application I published on the App Store was littered with code smells, bad practices, and anti-patterns. The application worked, but it was a challenge to maintain. Adding features to a large, complex project becomes increasingly difficult if it lacks direction and structure.",
+    "imageURL": "https:\/\/cocoacasts.s3.amazonaws.com\/five-signs-of-code-smell-in-swift\/five-signs-of-code-smell-in-swift.svg",
+    "videoDuration": 422,
+    "videoID": "567438237"
+  },
+  {
+    "id": 9,
+    "title": "Avoiding Infinite Loops",
+    "excerpt": "Infinite loops are every developer's nightmare, especially if they have disastrous consequences. You need to be mindful of infinite loops when working with Combine or any other reactive framework. The difficulty is that it isn't always obvious that you created an infinite loop. As a matter of fact, we introduced an infinite loop earlier in this series. You receive a bonus point if you can spot it.",
+    "imageURL": "https:\/\/cocoacasts.s3.amazonaws.com\/building-reactive-applications-with-combine-avoiding-infinite-loops\/building-reactive-applications-with-combine-avoiding-infinite-loops.svg",
+    "videoDuration": 570,
+    "videoID": "555642858"
+  },
+  {
+    "id": 528,
+    "title": "Seven Xcode Tricks Every Developer Should Know",
+    "excerpt": "To be productive and efficient, you need to know your tools. For a Swift developer, that means mastering Xcode. While Xcode is a complex piece of software with a fairly steep learning curve, the tricks I show you in this episode should significantly boost your productivity.",
+    "imageURL": "https:\/\/cocoacasts.s3.amazonaws.com\/seven-xcode-tricks-every-developer-should-know\/seven-xcode-tricks-every-developer-should-know.svg",
+    "videoDuration": 362,
+    "videoID": "553344883"
+  },
+  {
+    "id": 10,
+    "title": "Image Caching with Kingfisher",
+    "excerpt": "In the previous episodes, we implemented a service to fetch and cache remote images. Even though the service we built is pretty flexible, some applications require a more powerful solution and more options to fit their needs. This episode focuses on Kingfisher, a popular, open source library to fetch and cache remote images. You learn how to integrate Kingfisher in a project using CocoaPods. I show you how Kingfisher differs from the service we created earlier in this series and we take a peek under the hood to learn how Kingfisher does its magic.",
+    "imageURL": "https:\/\/cocoacasts.s3.amazonaws.com\/image-caching-in-swift-image-caching-with-kingfisher\/image-caching-in-swift-image-caching-with-kingfisher.svg",
+    "videoDuration": 648,
+    "videoID": "552329169"
+  }
+]

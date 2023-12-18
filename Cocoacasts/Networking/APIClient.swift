@@ -64,28 +64,26 @@ final class APIClient: APIService {
                 .receive(on: DispatchQueue.main)
                 .eraseToAnyPublisher()
         } catch {
-            if let apiError = error as? APIError {
-                return Fail(error: apiError)
-                    .eraseToAnyPublisher()
-            }
-            return Fail(error: APIError.unknown)
+            return Fail(error: error as! APIError)
                 .eraseToAnyPublisher()
         }
     }
     
-    func handleResponse<T: Decodable>(data: Data, response: URLResponse) throws -> T {
+    private func handleResponse<T: Decodable>(data: Data, response: URLResponse) throws -> T {
         guard let statusCode = (response as? HTTPURLResponse)?.statusCode else {
             throw APIError.failedRequest
         }
 
-        guard (200..<300).contains(statusCode) else {
+        guard statusCode.isSuccess else {
             if statusCode == 401 {
                 throw APIError.unauthorized
-            } else if statusCode == 204, let empty = Empty() as? T {
-                return empty
             } else {
                 throw APIError.failedRequest
             }
+        }
+        
+        if statusCode == 204, let empty = Empty() as? T {
+            return empty
         }
 
         do {
